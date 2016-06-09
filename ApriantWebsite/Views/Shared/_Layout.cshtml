@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="Scripts/skel.min.js"></script>
+    <script src="Scripts/skel-panels.min.js"></script>
+    <script src="Scripts/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="Content/skel-noscript.css" />
+        <link rel="stylesheet" href="Content/style.css" />
+        <link rel="stylesheet" href="Content/style-desktop.css" />
+    </noscript>  
+
+</head>
+<body>
+    <div id="header-wrapper">
+
+        <div id="header" class="container">
+
+            <div id="logo"><h1><a href="#"><<img src="~/images/Inverted_ApriantClear.png" width="21%" height="20%" /> </a></h1></div>
+            <nav id="nav">
+                <ul>
+                    <li> @Html.ActionLink("Home", "Index", "Home")</li>
+                    <li> @Html.ActionLink("Methodology", "Index", "Methodology")</li>
+                    <li> @Html.ActionLink("Services", "Index", "Services")</li>
+                    <li> @Html.ActionLink("About Us", "Index", "About")</li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div id="banner">
+            <div class="container">
+                <div class="row">
+                    <section class="12u">
+                        <header>
+                            @*<h2>Apriant</h2>*@
+                            <span class="byline">Management and Technology Consultants for K­12 Education</span>
+                        </header>
+                        @*<a href="#" class="button button-alt">Read More</a>*@
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+        @RenderBody()
+
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+
+    <script src="@Url.Content("Scripts/bootstrap.js")"></script>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
