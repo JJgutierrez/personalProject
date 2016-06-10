@@ -77,6 +77,5 @@ C:\Users\Juan\Documents\PersonalProjects\ApriantWebsite\ApriantWebsite\bin\Micro
 C:\Users\Juan\Documents\PersonalProjects\ApriantWebsite\ApriantWebsite\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Juan\Documents\PersonalProjects\ApriantWebsite\ApriantWebsite\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Juan\Documents\PersonalProjects\ApriantWebsite\ApriantWebsite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Juan\Documents\PersonalProjects\ApriantWebsite\ApriantWebsite\obj\Debug\ApriantWebsite.csprojResolveAssemblyReference.cache
 C:\Users\Juan\Documents\PersonalProjects\ApriantWebsite\ApriantWebsite\obj\Debug\ApriantWebsite.dll
 C:\Users\Juan\Documents\PersonalProjects\ApriantWebsite\ApriantWebsite\obj\Debug\ApriantWebsite.pdb

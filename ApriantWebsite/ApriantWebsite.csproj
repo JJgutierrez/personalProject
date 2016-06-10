@@ -213,6 +213,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="images\Apps-partitionmanager-icon.png" />
     <Content Include="images\ApriantFinal.png" />
     <Content Include="images\apriantlogoresize.jpg" />
     <Content Include="Content\skel-noscript.css" />
@@ -226,13 +227,22 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="images\denverJuan.jpg" />
+    <Content Include="images\email.png" />
+    <Content Include="images\engineering-pics.jpg" />
+    <Content Include="images\faxIcon.png" />
     <Content Include="images\featured-bg.png" />
+    <Content Include="images\Implementation.png" />
     <Content Include="images\Inverted Apriant.jpg" />
     <Content Include="images\Inverted_ApriantClear.png" />
     <Content Include="images\list-bullet.png" />
+    <Content Include="images\mail.png" />
     <Content Include="images\main-bg.png" />
+    <Content Include="images\maintenance-icon.png" />
     <Content Include="images\mobileUI-site-nav-opener-bg.svg" />
     <Content Include="images\nav-opener.png" />
+    <Content Include="images\project-plan-icon.png" />
+    <Content Include="images\strategic.png" />
+    <Content Include="images\talent.png" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />

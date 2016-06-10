@@ -5,7 +5,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css" />
-    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="Scripts/skel.min.js"></script>
     <script src="Scripts/skel-panels.min.js"></script>
@@ -22,7 +22,7 @@
 
         <div id="header" class="container">
 
-            <div id="logo"><h1><a href="#"><<img src="~/images/Inverted_ApriantClear.png" width="21%" height="20%" /> </a></h1></div>
+            <div id="logo"><h1><a href="http://localhost:7385/"><<img src="~/images/Inverted_ApriantClear.png" width="21%" height="20%" /> </a></h1></div>
             <nav id="nav">
                 <ul>
                     <li> @Html.ActionLink("Home", "Index", "Home")</li>
@@ -39,8 +39,8 @@
                 <div class="row">
                     <section class="12u">
                         <header>
-                            @*<h2>Apriant</h2>*@
-                            <span class="byline">Management and Technology Consultants for K­12 Education</span>
+                          
+                            <span class="byline" style="text-size-adjust:112%">Management and Technology Consultants for K­12 Education</span>
                         </header>
                         @*<a href="#" class="button button-alt">Read More</a>*@
                     </section>
@@ -54,7 +54,14 @@
         @RenderBody()
 
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <div class="container">
+                <div class="col-lg-12 text-center">
+
+                    <p style="text-align:center">@DateTime.Now.Year - Apriant Inc.<br>Phone: 303.800.6219 || Address: 1465 South Pearl Street Denver, CO 80210 || Email: contact@apriant.com</p>
+
+                </div>
+
+            </div>
         </footer>
 
     <script src="@Url.Content("Scripts/bootstrap.js")"></script>
